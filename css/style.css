@@ -6,8 +6,19 @@
 .flex{
     display: flex;
 }
+.flex-column{
+    flex-direction: column;
+    display: flex;
+}
 .space-between{
     justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+.margin-all{
+    margin: 10px;
+
 }
 .wrap{
     flex-wrap: wrap;
@@ -51,8 +62,15 @@ main{
     background-color: aqua;
 
 }
-
+p{
+    margin-top: 5px;
+    font-size: small;
+}
 footer{
     height: calc(100vh - 90%);
     background-color: gray;
+}
+.footer-container{
+    height: 100%;
+
 }
