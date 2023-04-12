@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .flex{
     display: flex;
 }
@@ -45,6 +48,7 @@ body{
 
 }
 main{
+    overflow-y: scroll;
     height:calc(100vh - 10%);
     background-color: black;
     padding-top: 68px;
@@ -55,7 +59,8 @@ main{
 }
 
 .video-card{
-    width: calc(calc(100vw - 12%) / 7.1);
+    width: 221.27px;
+    height: 129.5px;
     margin-bottom: 5px;
     background-image: url(https://picsum.photos/id/29/360/241);
     background-size: cover;
