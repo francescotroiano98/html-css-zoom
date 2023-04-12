@@ -13,6 +13,16 @@ html{
     flex-direction: column;
     display: flex;
 }
+.relative{
+    position: relative;
+}
+.pinco{
+    position: absolute;
+    padding: 2px;
+    background-color:rgba(0, 0, 0, 0.5);
+    bottom: 0px;
+    color: white;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -35,8 +45,9 @@ body{
 }
 .speaker-view{
     position: absolute;
-    right: 5px;
-    top: 10px;
+    z-index: 1;
+    right: 28px;
+    top: 13px;
     color: white;
     font-size: small;
 }
