@@ -16,6 +16,10 @@ html{
 .relative{
     position: relative;
 }
+.section-top{
+    height: 5vh;
+    background-color: black;
+}
 .pinco{
     position: absolute;
     padding: 2px;
@@ -60,9 +64,8 @@ body{
 }
 main{
     overflow-y: scroll;
-    height:calc(100vh - 10%);
+    height:calc(100vh - 15%);
     background-color: black;
-    padding-top: 68px;
 }
 .main-container{
     max-width: calc(100vw - 11%);
